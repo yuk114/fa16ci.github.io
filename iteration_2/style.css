@@ -10,3 +10,7 @@ body {
   	background-color:#ff3151;
   	float:left;
 }
+
+.random {
+	position:absolute;
+}
