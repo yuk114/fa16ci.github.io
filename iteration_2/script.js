@@ -1,5 +1,20 @@
 
 $(document).ready(function() { //always do this first. A special event 
+
+  //append new element
+  for (i = 0; i < 100; i++){
+    $("body").append( "<div class='element' style='background-color: hsl(" + i * 3.6 + ", 100%, 50%);'></div>" );
+    console.log("element " + i + " added");
+}
+  
+  //mouse interaction
+  $('.element').mouseover(function(){
+    $(this).css('background-color','black');
+  });
+  $('.element').mouseout(function(){
+    $(this).css('background-color','#000000');
+  });
+  
   
   //call the function
   drawGridObjects();
@@ -8,14 +23,6 @@ $(document).ready(function() { //always do this first. A special event
   drawRandomObject();
   drawRandomObject();
   drawRandomObject();
-  
-  //mouse interaction
-  $('.element').mouseover(function(){
-    $(this).css('background-color','black');
-  });
-  $('.element').mouseout(function(){
-    $(this).css('background-color','#ff3151');
-  });
   
   //custom functions
   function drawRandomObject(){
