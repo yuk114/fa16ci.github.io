@@ -3,6 +3,11 @@ $(document).ready(function(){
   /* -------------------------------------------
   Code to run sequentially
   ----------------------------------------------- */
+
+   //append new element
+  for (i = 0; i < 100; i++){
+    $("body").append( "<div class='element' style='background-color: hsl(" + i * 3.6 + ", 100%, 50%);'></div>" );
+    console.log("element " + i + " added");
   
   
   $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=10011,us&appid=49b310956e729b2905a4b9dc3fc983a6",function(result){
@@ -24,9 +29,8 @@ $(document).ready(function(){
     $(this).css('background-color','black');
   });
   $('.element').mouseout(function(){
-    $(this).css('background-color','#ff3151');
+    $(this).css('background-color','#000000');
   });
- 
 
   /* -------------------------------------------
   Custom functions used above are defined below

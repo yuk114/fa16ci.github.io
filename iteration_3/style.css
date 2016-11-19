@@ -1,14 +1,16 @@
+
 body {
-  background-color:#00d1c6;
-  margin:0;
+	background-color:#000000;
+	margin: 0;
 }
+
 .element {
-  width:20px;
-  height:20px;
-  background-color:#ff3151;
-  margin:10px;
-  position:absolute;
+	width:100%;
+  	height:60px;
+  	background-color:#ff3151;
+  	float:left;
 }
+
 .random {
-  background-color: #000;
+	position:absolute;
 }

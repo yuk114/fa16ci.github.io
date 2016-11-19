@@ -3,7 +3,7 @@ $(document).ready(function() { //always do this first. A special event
 
   //append new element
   for (i = 0; i < 100; i++){
-    $("body").append( "<div class='element' style='background-color: hsl(" + i * 3.6 + ", 100%, 50%);'></div>" );
+    $("body").append( "<div class='element' style='background-color: hsl(" + i * 3.6 + ", 100%, 50%); transform:rotate(" + i*3.6 + "deg);'></div>" );
     console.log("element " + i + " added");
 }
   
