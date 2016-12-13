@@ -1,18 +1,8 @@
-h1 {
-	position: absolute;
-	font-family:Lucida Console;
-  width: 300px;
-  height: 200px;
-  z-index: 15;
-  top: 50%;
-  left: 50%;
-  margin: -100px 0 0 -150px;
-  background: white;
-}
-p {
-	font-family:Lucida Console;
-	text-align: center;
-	margin-top: 500px;
-	margin-right: 500px;
-	margin-left:500px;
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 300pt;
+    float: left;
+    padding: 15px;
 }
