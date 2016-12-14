@@ -1,0 +1,12 @@
+body{
+	background-color: #ffffff;
+}
+
+p{
+    color:#ff9900;
+	font-family: 'Space Mono', monospace;
+	font-size: 60px;
+	margin-top: 250px;
+	margin-left: 520px;
+	margin-right:500px;
+}

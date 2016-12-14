@@ -52,4 +52,12 @@ $(document).ready(function() { //always do this first. A special event
       }
     }
   }
+  
+ 
+ function rotateGridObjects(){
+    var now = new Date();
+    var second = now.getSeconds();
+    console.log(second);
+    $('.element').css('transform','rotate(' + second*6 + 'deg)');
+  }
 });

@@ -1,12 +1,24 @@
 body{
-	background-color: #ffffff;
+	background-color: #ac738e;
 }
 
 p{
-    color:#ff9900;
+    color:#17595c;
 	font-family: 'Space Mono', monospace;
 	font-size: 60px;
 	margin-top: 250px;
 	margin-left: 520px;
 	margin-right:500px;
+}
+h1 {
+	color:#17595c;
+	font-family: 'Space Mono', monospace;
+
+}
+h2 {
+	color: #55d2b7;
+}
+h3 {
+	color: #0ef03f;
+}
 }
