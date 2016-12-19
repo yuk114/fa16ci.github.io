@@ -1,0 +1,26 @@
+body{
+	background-color: #d763be;
+}
+p{
+    color:#ff9900;
+	font-family: 'Space Mono', monospace;
+	font-size: 60px;
+	margin-top: 250px;
+	margin-left: 520px;
+	margin-right:500px;
+}
+h1{
+	color:#42a99b;
+	font-family: 'Space Mono', monospace;
+	font-size:45px;
+}
+h2 {
+	color:#480ec5;
+	font-family: 'Space Mono', monospace;
+	font-size:45px;
+}
+h3 {
+	color:#5f9ed3;
+	font-family: 'Space Mono', monospace;
+	font-size:45px;
+}
